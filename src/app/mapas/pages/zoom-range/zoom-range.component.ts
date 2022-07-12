@@ -1,5 +1,7 @@
 import { AfterViewInit, Component, ElementRef, OnDestroy, ViewChild } from '@angular/core';
+
 import * as mapboxgl from 'mapbox-gl'
+
 
 @Component({
   selector: 'app-zoom-range',
@@ -16,6 +18,8 @@ import * as mapboxgl from 'mapbox-gl'
         border-radius: 5px;
         bottom: 50px;
         left: 50px;
+        right: 50px;
+        max-width: 500px;
         padding: 10px;
         position: fixed;
         z-index: 999;
